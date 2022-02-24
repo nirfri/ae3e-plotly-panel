@@ -32,6 +32,9 @@ export class SimplePanel extends PureComponent<Props> {
       __to: this.props.replaceVariables('$__to'),
       __interval: this.props.replaceVariables('$__interval'),
       __interval_ms: this.props.replaceVariables('$__interval_ms'),
+      width: this.props.width,
+      height: this.props.height
+      
     } as any;
     templateSrv.getVariables().forEach((elt: any) => {
       context[elt.name] = elt.current.text;

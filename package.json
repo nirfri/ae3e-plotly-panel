@@ -16,14 +16,14 @@
     "@grafana/data": "8.0.3",
     "@grafana/runtime": "8.0.3",
     "@grafana/toolkit": "8.0.3",
-    "@grafana/ui": "8.0.3"
+    "@grafana/ui": "8.0.3",
+    "plotly.js": "^2.9.0",
+    "react-plotly.js": "^2.5.1"
   },
   "dependencies": {
     "@emotion/core": "^10.0.27",
     "deepmerge": "^4.2.2",
     "emotion": "^10.0.27",
-    "plotly.js": "1.58.4",
-    "react-plotly.js": "2.5.1",
     "react-virtualized-auto-sizer": "^1.0.5"
   },
   "resolutions": {
